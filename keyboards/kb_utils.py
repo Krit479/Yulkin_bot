@@ -31,7 +31,3 @@ def create_inline_kb(width: int,
 
     # Возвращаем объект инлайн-клавиатуры
     return kb_builder.as_markup(remove_keyboard=True)
-
-#continue_btn1 = KeyboardButton(text=LEXICON['continue_btn1'])
-#continue_btn2 = KeyboardButton(text=LEXICON['continue_btn2'])
-#continue_btn3 = KeyboardButton(text=LEXICON['continue_btn3'])
